@@ -1,0 +1,72 @@
+1.Calculate the Sum of Natural Numbers
+
+Start
+    Input: n (a positive integer)
+    Output: sum (sum of all natural numbers from 1 to n)
+
+    sum = 0
+    For i = 1 to n do
+        sum = sum + i
+    End For
+
+    Return sum
+End 
+
+
+2.Find the Maximum of Three Numbers
+
+Start
+    Input: a, b, c (three numbers)
+    Output: max (the largest number among a, b, and c)
+
+    max = a
+    If b > max Then
+        max = b
+    End If
+    If c > max Then
+        max = c
+    End If
+
+    Return max
+End 
+
+3.Factorial Calculation
+
+Start
+    Input: n (a positive integer)
+    Output: fact (factorial of n)
+
+    fact = 1
+    For i <- 1 to n do
+        fact = fact * i
+    End For
+
+    Return fact
+End
+
+4.Check if a Number is Even or Odd
+
+Start
+    input:n
+    output:Even or Odd
+
+    If n % 2 == 0:
+        Print "Even"
+    Else:
+        Print "Odd"
+End
+
+5.Check for Prime Number
+
+Start
+    n
+    If n <= 1:
+        Print "Not Prime"
+    Else:
+        For i from 2 to sqrt(n):
+            If n % i == 0:
+                Print "Not Prime"
+                Exit
+        End For
+        Print "Prime"
+End
