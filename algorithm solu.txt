@@ -1,0 +1,49 @@
+Calculate the Sum of Natural Numbers
+Write an algorithm that calculates the sum of all natural numbers from 1 to a given number n.
+
+Start
+insert the number a
+set a variable sum to 0
+create a loop
+	-start a loop from i=1 to i=0
+	-add current value of i to sum
+end loop when i>n
+return the value of sum
+End
+
+Find the Maximum of Three Numbers
+Write an algorithm that takes three numbers as input and finds the largest of them.
+
+Start
+input three numbers a,b,c.
+take a variable max and set the value of a to max
+compare the numbers using condition statements
+	if b>max then set max=b
+	if c>max then set max=c
+return the value of max
+End
+
+Factorial Calculation
+Write an algorithm that calculates the factorial of a number n.
+
+Start
+insert a variable n
+initialize a variable fact to 1
+create a FOR loop with specific condition
+	-set i from 1 to n
+	-multiply fact by i and store the result in fact
+end the loop after the condition gets wrong
+return the value of fact
+End
+
+
+Check if a Number is Even or Odd
+Write an algorithm that checks if a given number n is even or odd.
+
+Start
+insert the number n
+check the number using condition statements
+	-if n%2=0,the number is even
+	-else the number is odd
+return the result(even or odd)
+End
