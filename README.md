@@ -32,6 +32,6 @@ The algorithm should compute the factorial by multiplying all the integers from 
 **Problem 5: Check if a Number is Even or Odd**
 Write an algorithm that checks if a given number n is even or odd.
 ```
-  The user should input a value for n.
-  The algorithm should check whether n is divisible by 2 and display the result as either "Even" or "Odd".
+The user should input a value for n.
+The algorithm should check whether n is divisible by 2 and display the result as either "Even" or "Odd".
   ```
